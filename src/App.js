@@ -1,14 +1,12 @@
 import Navbar from './Navbar';
+import { Banner } from './Banner';
+import { Listings } from './Listings';
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-primary">
       <Navbar />
-      <div className="bg-blue-500 h-screen flex items-center justify-center">
-        <div className="text-white text-4xl font-bold">
-          Welcome to our Landing Page
-        </div>
-        
-      </div>
+      <Banner />
+      <Listings/>
     </div>
   );
 }
