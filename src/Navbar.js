@@ -8,8 +8,8 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
   const signedIn = false;
   return (
-    <div className="backdrop-blur-sm flex w-full p-5 justify-center ">
-      <nav className="bg-blue p-5 w-5/6 shadow-lg rounded-md align-middle">
+    <div className="flex w-full p-5 justify-center ">
+      <nav className="bg-blue-400 p-5 w-5/6 shadow-lg rounded-md align-middle">
         <div className="flex items-center justify-between">
           <a className="flex text-white text-2xl font-bold" href="/">
             <img class="w-10 h-10 mr-2 invert hover:animate-spin fill-primary" alt="bike" src={bike}></img>
